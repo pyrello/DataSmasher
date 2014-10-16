@@ -1,4 +1,23 @@
 {
 	"name": "digable/datasmasher",
-	"description": ""
+	"description": "",
+    "authors": [
+        {
+            "name": "Quincy Fuller",
+            "email": "quincy.fuller@pearson.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Digible\\DataSmasher": "src/"
+        }
+    },
+    "minimum-stability": "stable"
 }
